@@ -1,0 +1,109 @@
+*::-webkit-scrollbar {
+  display: none
+}
+
+/* Rooms Dropdown CSS */
+.overlay0 {
+  display: grid;
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.5s;
+
+}
+
+.overlay0-content {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: 75px;
+  max-width: 970px;
+  justify-self: center;
+}
+
+.overlay0 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #222;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay0 a:hover,
+.overlay0 a:focus {
+  color: #ff9800;
+}
+
+
+@media screen and (max-height: 450px) {
+  .overlay0 {
+    overflow-y: auto;
+  }
+
+  .overlay0 a {
+    font-size: 20px
+  }
+
+  .overlay0 .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+/* Tabs CSS */
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.book_now {
+  padding: 10px;
+  font-weight: bold;
+  background-color: #3900d4;
+  border: none;
+  color: #fff;
+  border-radius: 41px;
+  width: 200px;
+  align-self: center;
+  border: 5px solid white;
+  box-shadow: 5px 5px 25px #ccc;
+  transition: 0.2s;
+}
+
+.book_now:hover {
+  background-color: #202020;
+  
+}

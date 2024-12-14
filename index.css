@@ -501,7 +501,7 @@
 
 .u-section-4 .u-repeater-1 {
   grid-auto-columns: calc(50% - 5px);
-  grid-template-columns: repeat(2, calc(50% - 5px));
+  grid-template-columns: repeat(4, calc(25 - 5px));
   min-height: 241px;
   grid-gap: 10px;
 }
@@ -541,7 +541,7 @@
 @media (max-width: 991px) {
   .u-section-4 .u-repeater-1 {
     grid-auto-columns: calc(100% - 0px);
-    grid-template-columns: 100%;
+    grid-template-columns: repeat(2, calc(50% - 5px));
   }
 }
 

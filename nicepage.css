@@ -18416,6 +18416,7 @@ p {
 }
 .u-align-left {
   text-align: left;
+	padding: 0 10px;
 }
 @media (min-width: 1400px) {
   .u-align-left-xxl {

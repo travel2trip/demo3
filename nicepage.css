@@ -1092,7 +1092,7 @@ textarea {
 .u-nav-item a,
 .u-filter-item a,
 .u-product-control.u-text a {
-  font-size: inherit;
+  font-size: 1rem;
   font-family: inherit;
   line-height: inherit;
   letter-spacing: inherit;
